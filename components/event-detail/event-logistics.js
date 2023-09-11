@@ -11,8 +11,8 @@ function EventLogistics(props) {
     month: 'long',
     year: 'numeric',
   });
-  const addressText = address.replace(', ', '\n');
-
+  // const addressText = address.replace(', ', '\n');
+  const addressText = address;
   return (
     <section className={classes.logistics}>
       <div className={classes.image}>
